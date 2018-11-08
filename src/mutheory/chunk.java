@@ -33,13 +33,13 @@ public class chunk
 
   public byte[] getBytes()
   {
-    byte[] tosen = new byte[end+1]
+    byte[] tosen = new byte[end+1];
     for(int i = 0; i <= end; i++)
       tosen[i] = ourBytes[i];
     return tosen;
-    {
+    
 
-    }
+    
   }
 
 
