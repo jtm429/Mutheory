@@ -23,7 +23,11 @@ public class MidiHead
   public int getFormat()     {  return fifo;  }
   public int getNumTracks()  {  return notr;  }
   public int getDeltaTime()  {  return delta; }
-    
+  public void setFormat(int a) { fifo = a;}
+  public void setNumTracks(int a) { notr = a;}
+  public void setDeltaTime(int a) { delta = a;}
+
+
   
   
   
