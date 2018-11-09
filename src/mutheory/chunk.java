@@ -15,6 +15,19 @@ public class chunk
     spot = 0;
     end = -1;
   }
+  
+    public chunk(String textchunk)
+  {
+  	int len = textchunk.length();
+  	byte[] astr = new byte[len];
+  	for(int i = 0; i < len; i++)
+  	{
+  		astr[i] = textchunk.charAt(i);
+  	}
+  	ourBytes = astr;
+  	spot = len; 
+  	end = len-1;
+  }
 
   public void addByte(byte spoon)
   {
