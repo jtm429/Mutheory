@@ -22,7 +22,7 @@ public class chunk
   	byte[] astr = new byte[len];
   	for(int i = 0; i < len; i++)
   	{
-  		astr[i] = textchunk.charAt(i);
+  		astr[i] = (byte)textchunk.charAt(i);
   	}
   	ourBytes = astr;
   	spot = len; 

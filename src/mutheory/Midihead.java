@@ -2,7 +2,7 @@ package mutheory;
 
 
 //this is for generating the header at the beginning of the midi file
-public class MidiHead
+public class Midihead
 {
   //the header consists of several pieces
   //a textchunk 
@@ -24,7 +24,7 @@ public class MidiHead
   public int getNumTracks()  {  return notr;  }
   public int getDeltaTime()  {  return delta; }
   //setters
-  public void setFormat(int a) `  { fifo = a; }
+  public void setFormat(int a)    { fifo = a; }
   public void setNumTracks(int a) { notr = a; }
   public void setDeltaTime(int a) { delta = a;}
 
