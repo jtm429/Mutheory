@@ -14,6 +14,8 @@ public class tisig
   public int getBpbar() {return bpb;}
   public int setBpbar(int abeat) {bpb = abeat;}
   
+  
+  
   public tisig(int beatperbar, int beat)
   {
     bpb = beatperbar;
