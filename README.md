@@ -5,6 +5,7 @@ An application for the implementation of music theory, and for the creation of m
 this information is being added as I go, so I can remember it because I'm terribly forgetful. I also talk to myself, so my kind of enormous amount of comments can be attributed to that. Its to help me remember what the heck I'm doing with this
 
 ## MidiWriter 
+The class used to handle all the weird midi stuff for me
 ## MidiHead
    - variables
      - file format - 2 bytes long
